@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="291.0" prefWidth="244.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.EjemploAlertsController">
+   <children>
+      <Button fx:id="btnAlertError" layoutX="47.0" layoutY="46.0" mnemonicParsing="false" onAction="#mostrarAlertError" prefHeight="25.0" prefWidth="158.0" text="Mostrar alert de error" />
+      <Button fx:id="btnAlertInfo" layoutX="47.0" layoutY="94.0" mnemonicParsing="false" onAction="#mostrarAlertInfo" prefHeight="25.0" prefWidth="158.0" text="Mostrar alert de info" />
+      <Button fx:id="btnAlertWarning" layoutX="47.0" layoutY="138.0" mnemonicParsing="false" onAction="#mostrarAlertWarning" prefHeight="25.0" prefWidth="158.0" text="Mostrar alert de warning" />
+      <Button fx:id="btnAlertCabecera" layoutX="47.0" layoutY="231.0" mnemonicParsing="false" onAction="#mostrarAlertCabecera" text="Mostrar alert con cabecera" />
+      <Button fx:id="btnAlertConfirmation" layoutX="47.0" layoutY="182.0" mnemonicParsing="false" onAction="#mostrarAlertConfirmation" prefHeight="25.0" prefWidth="158.0" text="Mostrar alert de confirm" />
+   </children>
+</AnchorPane>
